@@ -19,3 +19,24 @@ double result = (double)10 / (double)3;
         System.out.println(x);
         System.out.println(y);
         // Here we can see that the value of x is 3 and y is also 3. This is because when we assign y=x, we are copying the value of x into y. So, if we change the value of x later, it will not affect the value of y.
+
+
+
+
+
+
+
+
+        //implicit casting
+        double x =1.1;
+        double y = x + 2;
+        System.out.println(y);
+        //result: 3.1
+
+        //explicit casting
+        double a = 1.1;
+        int b = (int) a + 2;
+        System.out.println(b);
+        //result: 3
+
+        //byte, short, int, long, float, double.
