@@ -1,8 +1,10 @@
 package java_with_mosh;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
-        String mess = "Hello, World!";
-        System.out.println(mess);
+        int numbers[] = {1, 2, 3, 4, 5};
+        System.out.println(Arrays.toString(numbers));
     }    
 }
