@@ -10,9 +10,6 @@ public class Main {
         System.out.println(y);
         //reult: 3.1
 
-        double a = 1.1;
-        int b = (int) a + 2;
-        System.out.println(b);
-        //result: 3
+        
     }    
 }
