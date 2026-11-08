@@ -40,3 +40,11 @@ double result = (double)10 / (double)3;
         //result: 3
 
         //byte, short, int, long, float, double.
+
+
+
+
+        //string casting
+        String x = "1";
+        int y= Integer.parseInt(x)+1;
+        System.out.println(y);
