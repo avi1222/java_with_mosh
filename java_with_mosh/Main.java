@@ -4,10 +4,10 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Enter your age: ");
         Scanner scanner = new Scanner(System.in);
-        byte age = scanner.nextByte();
-        System.out.println("You are " + age + " years old.");
+        System.out.println("Enter your Name: ");
+        String name = scanner.next();
+        System.out.println("Hello, " + name + "!");
         scanner.close();
     }    
 }

@@ -48,3 +48,11 @@ double result = (double)10 / (double)3;
         String x = "1";
         int y= Integer.parseInt(x)+1;
         System.out.println(y);
+
+
+
+        System.out.println("Enter your age: ");
+        Scanner scanner = new Scanner(System.in);
+        byte age = scanner.nextByte();
+        System.out.println("You are " + age + " years old.");
+        scanner.close();
