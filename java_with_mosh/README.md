@@ -56,3 +56,12 @@ double result = (double)10 / (double)3;
         byte age = scanner.nextByte();
         System.out.println("You are " + age + " years old.");
         scanner.close();
+
+
+
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter your Name: ");
+        String name = scanner.nextLine().trim();
+        System.out.println("Hello, " + name + "!");
+        scanner.close();
